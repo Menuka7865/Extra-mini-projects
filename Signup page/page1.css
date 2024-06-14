@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+
+}
+.container{
+    width:100%;
+    display:flex;
+
+}
+.container .content-1{
+    width:60%;
+    height:100vh;
+    background: linear-gradient(to left,#012413,#358a61);
+}
+.container .menu-bar{
+    display:flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background: #0000006c;
+    width:60%;
+    padding:20px;
+    margin-top: 15px;
+}
+.content-1 .menu-bar a{
+    color:#fff;
+    text-decoration: none;
+    font-weight:600;
+}
+.content-1  .menu-bar a p{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+span{
+    color:#f07421
+}
+.content-1  .list ul{
+    display: flex;
+    list-style: none;
+
+}
+.content-1 .list ul li a{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    padding:5px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.content-1 .list ul li a:hover{
+    background:#f07421;
+}
+.content-1 .left{
+    position: absolute;
+    top:30%;
+    left:5%;
+    width:50%;
+    color:#fff;
+    letter-spacing: 1px;
+}
+.content-1 .left .title{
+    font-size: 50px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+.content-1 .left .sub-title{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.content-1 button{
+    width :150px;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    background: #f07421;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    transform: 0.5s;
+}
+.content-1 button:hover{
+    background: none;
+    border:5px solid #f07421;
+    width:160px;
+    height: 60px;
+    border-radius: 10px;
+}
+.container .content-2 img{
+    width:500px;
+    position: absolute;
+    top:15%;
+    right:50px;
+
+}
+.container .content-2 .btns{
+    position: absolute;
+    right:3%;
+    top:3%;
+}
+.container .content-2 .btns button{
+    width:100px;
+    height:40px;
+    border:3px solid #f07421;
+    border-radius: 5px;
+    background: #f07421;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s;
+    cursor: pointer;
+   
+}
+.container .content-2 .btns button:first-child{
+    background: none;
+    color:#f07421;
+}
+.container .content-2 .btns button:first-child:hover{
+    background: #f07421;
+    color:#fff;
+}
+.container .content-2 .btns button:last-child:hover{
+    background: #af4600;
+    color:#fff;
+    border:3px solid #af4600;
+}
