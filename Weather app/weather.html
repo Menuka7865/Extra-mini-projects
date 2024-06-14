@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="weather .css">
+        <script src="https://kit.fontawesome.com/9ecd63ce26.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="ENTER YOUR LOCATION">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="weather-box">
+                <div class="box">
+                    <div class="info-weather">
+                        <div class="weather">
+                            <img src="Images/clouds.png">
+                            <p class="temperature">0<span>°C</span></p>
+                            <p class="description">Broken Clouds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <div class="info-humidity">
+                            <span>0%</span>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <div class="info-wind">
+                            <span>0Km/h</span>
+                        </div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="weather.js"></script>
+
+    </body>
+</html>
